@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #F2E6D0;
+    color: #011640;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+  }
+
+  .logo {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .nav a {
+    color: #011640;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #41A8BF;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: inherit;
+  }
+  
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 32px;
+    padding: 32px;
+    background-color: #f5f5f5;
+  }
+  
+  .section {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .largesection {
+    background: #ffffff;
+    padding: 48px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section img {
+    display: block; 
+    margin: 0 auto;
+    width: 180px; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.5s;
+    border: 2px solid black;
+  }
+  
+  .section img:hover {
+    transform: scale(1.05);
+  }
+  
+  .largesection img {
+    display: block; 
+    margin: 0 auto;
+    height: 600px; 
+    width: 1200px; 
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.5s;
+    border: 2px solid black;
+  }
+  
+  .largesection img:hover {
+    transform: scale(1.05);
+  }
+  
+  p {
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu button {
+    background-color: #e62429;
+    color: white;
+    padding: 16px 32px; 
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: lighter;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: transform 0.5s;
+  }
+  
+  .menu button:hover {
+    color: #aaaaaa;
+    transform: scale(1.05);
+  }
+  
+  .footer {
+    background-color: #F2E6D0;
+    color: #011640;
+    text-align: center;
+    padding: 16px;
+    font-size: 14px; 
+    border-top: 2px solid black;
+  }
